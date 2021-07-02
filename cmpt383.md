@@ -1,0 +1,7 @@
+- I will be creating a text processing program or an android app that will take in a text file in a certain format. This program will enable the user to change the version of the text and make it run through different formats (convert them). It will also allow searching through the text, changing different words, changing the font and size, as well as suggesting synonyms for a word when it is highlighted. 
+
+- Java and C++ and Python will be used for this project. I will use Java to get the text from the user(have them type in the text or import a file). Then use Python for menipulating the text by colour, font, size changes, etc. Then use C++ for text proccessing change of format. 
+
+- Based on some research, I have found that running the other language's code as an executable would be the simplest way to use for the cross-language communication in this program, but GraalVM and SWIG can also be a good option in this case. So the two that I have chosen for now are GraalVM and executable methods to make sure the process happens smoothly.
+
+- A Virtual Machine + Chef is the option of my choice for this project. I downloaded the Vagrantfile and the cookbooks, and also installed Vagrant VM and made sure that it works with the Vagrantfile provided. I also changed the recepe to enable C/C++, java and python. I then ran the hello.py, hello.cpp and Hello.java codes in the hello-world file in the vagrant compiler and it worked (It printed "Hello world") for both of them.
